@@ -1,5 +1,8 @@
 label,sublabel,description,styles,bgcolor
-資源類,,,img/shigen02.svg,#77ae1f
-燃えるごみ,,,img/moyasu02.svg,#ea3b13
-古紙類,,,img/dasemasen.svg,#733b96
-燃えないごみ,,,img/moyasanai02.svg ,#685ecf
+可燃物,,,,#fc5053
+ビニール・プラスチック（プラマークあり）,,,,#96d8f2
+ビニール・プラスチック（プラマークなし）,,,,#29b9f2
+金物,,,,#f28029
+ガラス,,,,#e1ef45
+ペットボトル,,,,#43d354
+陶磁器,,,,#bf5b3d
