@@ -12,20 +12,6 @@ font-family:".HiraKakuInterface-W1",'Lucida Grande',
 /*#accordion-group2{background-color:  #ea3b13;}*//* 資源 */
 /*#accordion-group3{background-color:  #2dc7aa;}*//* びん */
 
-.google-maps {
-position: relative;
-padding-bottom: 250px; /*高さは250pxで固定*/
-height: 0;
-overflow: hidden;
-}
-.google-maps iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100% !important;
-height: 100% !important;
-}
-
 .accordion-group{margin-bottom:0;border:0;border-radius:0}
 
 #accordion3 
