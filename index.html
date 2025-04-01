@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJZXLSPCF3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LJZXLSPCF3');
-</script>
-	  
+<head>
     <meta charset="UTF-8">
     <meta property="og:title" content="5374.jp御前崎版" />
     <meta property="og:type" content="product" />
     <meta property="og:url" content="http://shimasho-shimada.5374.jp/" />
     <meta property="og:description" content="Code for Kanazawaの作った5374.jpは貴方の地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
-    <meta property="og:image" content="http://http://omaezakishi.5374.jp/img/1apple-touch-icon-precomposed.png" />
+    <meta property="og:image" content="http://omaezakishi.5374.jp/img/1apple-touch-icon-precomposed.png" />
     <meta name="Keywords" content="御前崎市,島田商業,5374,ごみ,ゴミ収集日" />
     <meta name="description" content="Code for Kanazawaの作った5374.jpは貴方の地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
     <title>5374(ｺﾞﾐﾅｼ).jp御前崎市版</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
     <link rel="apple-touch-icon-precomposed" href="img/1apple-touch-icon-precomposed.png" />
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="css/custom.css" rel="stylesheet" media="screen" />
-  </head>
-  <table style="border-style: none; border="2">
-  <tr>
-   <td><img src="huu.png" width="83" height="116" ></td>
-    <td><p><h3>５３７４アプリ　御前崎版はLINEに移行しました。</h3></p>
-  </td>
-   <td><img src="mami.png" width="83" height="116"></td>
-    </tr>
-    </table>
-  <body>
+    <style>
+        /* 背景を海っぽく */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom, #0099FF, #66CCFF); /* 青のグラデーション */
+            background-image: url('img/ocean.jpg'); /* 海の画像 */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8); /* 半透明の白背景 */
+            padding: 20px;
+            border-radius: 15px;
+        }
+        
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+        
+        td {
+            padding: 10px;
+        }
+        
+        h3 {
+            color: #003366; /* 濃い青で海っぽく */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td><img src="huu.png" width="83" height="116"></td>
+                <td>
+                    <h3>５３７４アプリ　御前崎版はLINEに移行しました。</h3>
+                </td>
+                <td><img src="mami.png" width="83" height="116"></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
