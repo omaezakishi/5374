@@ -23,73 +23,48 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background: url('img/real_ocean.jpg') no-repeat center center/cover; /* 海の背景 */
-            font-family: "Arial", sans-serif;
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* 波のアニメーション */
-        .wave {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 200%;
-            height: 100px;
-            background: rgba(255, 255, 255, 0.3);
-            opacity: 0.7;
-            animation: wave-animation 8s linear infinite;
+            background: linear-gradient(to bottom, #0099FF, #66CCFF); /* 青のグラデーション */
+            background-image: url('img/ocean.jpg'); /* 海の画像 */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         
-        .wave:nth-child(2) {
-            bottom: 10px;
-            opacity: 0.5;
-            animation-duration: 10s;
-        }
-        
-        @keyframes wave-animation {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
-
         .container {
             text-align: center;
-            background: rgba(255, 255, 255, 0.85);
+            background: rgba(255, 255, 255, 0.8); /* 半透明の白背景 */
             padding: 20px;
             border-radius: 15px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         }
-
+        
         table {
             margin: auto;
             border-collapse: collapse;
         }
-
+        
         td {
             padding: 10px;
         }
-
+        
         h3 {
-            color: #005f99; /* 海の深い青色 */
-            font-family: "Verdana", sans-serif;
+            color: #003366; /* 濃い青で海っぽく */
         }
 
-        /* LINEボタンデザイン（青系に変更） */
+        /* LINEボタンデザイン */
         .line-button {
             display: inline-block;
-            background: linear-gradient(to right, #00aaff, #0066cc); /* 青のグラデーション */
+            background-color: #06C755;
             color: white;
             font-size: 18px;
-            padding: 12px 25px;
-            border-radius: 25px;
+            padding: 10px 20px;
+            border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
-            transition: 0.3s;
+            margin-top: 15px;
         }
 
         .line-button:hover {
-            background: linear-gradient(to right, #0099ff, #0055aa);
-            transform: scale(1.05);
+            background-color: #04A647;
         }
     </style>
 </head>
@@ -100,15 +75,11 @@
                 <td><img src="huu.png" width="83" height="116"></td>
                 <td>
                     <h3>５３７４アプリ　御前崎版はLINEに移行しました。</h3>
-                    <a href="https://lin.ee/cYdS5rk" class="line-button">🌊 LINEで確認する</a>
+                    <a href="https://lin.ee/cYdS5rk" class="line-button">LINEで確認する</a>
                 </td>
                 <td><img src="mami.png" width="83" height="116"></td>
             </tr>
         </table>
     </div>
-
-    <!-- 波のアニメーション -->
-    <div class="wave"></div>
-    <div class="wave"></div>
 </body>
 </html>
